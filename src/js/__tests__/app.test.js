@@ -1,4 +1,4 @@
-import Character from '../character';
+import Character from '../app';
 
 test('function automatically set true values', () => {
   const character = new Character();

@@ -1,4 +1,4 @@
-import Character from './character';
+import Character from './app';
 
 export default class Zombie extends Character {
   constructor(name) {
@@ -7,5 +7,7 @@ export default class Zombie extends Character {
     this.type = 'Zombie';
     this.attack = 40;
     this.defence = 10;
+    this.validateName();
+    this.validateType();
   }
 }

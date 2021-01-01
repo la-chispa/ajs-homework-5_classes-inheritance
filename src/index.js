@@ -1,6 +1,6 @@
 import './css/style.css';
 
-import './js/character';
+import './js/app';
 
 import './js/bowman';
 
