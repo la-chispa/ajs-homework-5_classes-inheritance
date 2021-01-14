@@ -1,7 +1,11 @@
 export default class Character {
-  constructor() {
+  constructor(name, type) {
     this.health = 100;
     this.level = 1;
+    this.name = name;
+    this.type = type;
+    this.validateName();
+    this.validateType();
   }
 
   validateName() {
